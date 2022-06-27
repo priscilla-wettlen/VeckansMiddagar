@@ -1,8 +1,3 @@
-// let myDinners = ['Köttfarsås', 'Pulled Pork Nachos', 'Pozole', 'Lasagna', 'Köttfarslimpa',
-//   'Birria', 'Fisk + Pizza', 'Falafel']
-
-
-  
 let myDinners = {
   kfsas: {
     name: "Köttfarssås",
