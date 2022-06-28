@@ -128,10 +128,13 @@ function displayDinners() {
     const ul = document.querySelector(".ul");
     const li = document.createElement("li", ".li");
     const para = document.createElement("p", ".para");
+    const img = document.createElement("img", ".img");
+    img.setAttribute("src", selected[value].img)
     main.appendChild(dinners)
     dinners.appendChild(ul)
     ul.appendChild(li);
     li.appendChild(para)
+    li.appendChild(img)
     para.innerHTML = para.innerHTML += selected[value].name
   }
 }
